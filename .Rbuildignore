@@ -1,2 +1,5 @@
 ^asi468\.Rproj$
 ^\.Rproj\.user$
+^README\.Rmd$
+^data-raw$
+^LICENSE\.md$
