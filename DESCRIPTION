@@ -1,13 +1,13 @@
 Package: asi468
 Title: Store Glassware Data and Other Information for Repeteated Lab Tasks
-Version: 0.0.0.9000
+Version: 0.0.0.9001
 Authors@R: 
     person(given = "Evan",
            family = "Mascitti",
            role = c("aut", "cre"),
            email = "evanmascitti@gmail.com",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: Houses data objects to expidite lab work during my PhD in ASI 468 at Penn State. Compliments other related packages, see https://www.github.com/evanmascitti.
+Description: Houses data objects to expidite lab work during my PhD in ASI 468 at Penn State. Compliments other related packages (soiltestr and soilmesh); see https://www.github.com/evanmascitti.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
