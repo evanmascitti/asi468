@@ -18,6 +18,6 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
-This package houses data objects and other functions used commonly in ASI 468. This includes tared water content tins, beakers, flasks, etc. 
+This package houses data objects and other functions which are frequently used for soil testing in 468 ASI Building at Penn State University. This includes tared water content tins, beakers, flasks, etc. 
 
-It is mean to compliment the other packages I have written for use in the lab, namely **soilmesh** and the soon-to-be-renamed **diRtscience**.
+It is mean to compliment the other packages I have written for use in the lab, namely [**soiltestr**](https://www.github.com/evanmascitti/soiltestr) and [**soilmesh**](https://www.github.com/evanmascitti/soilmesh).
