@@ -3,9 +3,9 @@
 \docType{data}
 \name{tin_tares}
 \alias{tin_tares}
-\title{Masses of water content tins}
+\title{Masses of small water content tins}
 \format{
-a list containing a tibble for each set of tins. The tibble for a
+List containing one data frame for each set of tins. The data frame for a
 given set contains only two columns: the tin number and its mass in g.
 }
 \usage{

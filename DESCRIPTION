@@ -19,6 +19,9 @@ Imports:
     magrittr,
     readr,
     purrr,
-    tibble
+    tibble,
+    mathjaxr
 Depends: 
     R (>= 2.10)
+RdMacros: mathjaxr
+    

@@ -3,7 +3,7 @@ library(magrittr)
 
 obj_names <- list.files(path = "inst/ext-data/asi468_tin_tares/", pattern = '.csv', full.names = T) %>%
   purrr::map_chr(basename) %>%
-  purrr::map_chr(stringr::str_sub, end = 10)
+  purrr::map_chr(stringr::str_remove, pattern = "_tin_tares\\.csv$")
 
 tin_tares <- list.files(path = "inst/ext-data/asi468_tin_tares/", pattern = '.csv', full.names = T) %>%
   purrr::map(readr::read_csv) %>%
