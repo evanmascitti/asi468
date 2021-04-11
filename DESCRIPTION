@@ -1,6 +1,6 @@
 Package: asi468
 Title: Store Glassware Data and Other Information for Repeteated Lab Tasks
-Version: 0.0.0.9001
+Version: 0.0.0.9002
 Authors@R: 
     person(given = "Evan",
            family = "Mascitti",

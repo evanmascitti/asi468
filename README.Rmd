@@ -21,3 +21,5 @@ knitr::opts_chunk$set(
 This package houses data objects and other functions which are frequently used for soil testing in 468 ASI Building at Penn State University. This includes tared water content tins, beakers, flasks, etc. 
 
 It is mean to compliment the other packages I have written for use in the lab, namely [**soiltestr**](https://www.github.com/evanmascitti/soiltestr) and [**soilmesh**](https://www.github.com/evanmascitti/soilmesh).
+
+The vignettes contain specific details about how the test methods are performed. These are provided as references in the **soiltestr** package. 

@@ -15,3 +15,7 @@ It is mean to compliment the other packages I have written for use in
 the lab, namely
 [**soiltestr**](https://www.github.com/evanmascitti/soiltestr) and
 [**soilmesh**](https://www.github.com/evanmascitti/soilmesh).
+
+The vignettes contain specific details about how the test methods are
+performed. These are provided as references in the **soiltestr**
+package.
