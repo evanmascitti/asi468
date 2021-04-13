@@ -6,7 +6,7 @@ obj_names <- list.files(path = "inst/ext-data/asi468_tin_tares/", pattern = '.cs
   purrr::map_chr(stringr::str_remove, pattern = "_tin_tares\\.csv$")
 
 tin_tare_dfs <- list.files(path = "inst/ext-data/asi468_tin_tares/", pattern = '.csv', full.names = T) %>%
-  purrr::map(readr::read_csv) %>%
+  purrr::map(readr::read_csv, col_types = 'id') %>%
   purrr::set_names(nm = obj_names)
 
 tin_tares <- purrr::pmap(.l = list(
