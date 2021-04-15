@@ -5,8 +5,7 @@
 \alias{psa_beaker_tares}
 \title{Tared beaker masses}
 \format{
-List of data frames, with each data frame containing two columns (the
-beaker number and the tared mass in grams.
+List of data frames, with each data frame containing three columns: an identifier for the set (typically a date), the beaker number and the tared mass in grams.
 }
 \usage{
 psa_beaker_tares

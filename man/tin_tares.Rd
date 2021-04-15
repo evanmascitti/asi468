@@ -6,7 +6,7 @@
 \title{Masses of small water content tins}
 \format{
 List containing one data frame for each set of tins. The data frame for a
-given set contains only two columns: the tin number and its mass in g.
+given set contains three columns: the identifier for the tin tare set (typically a date ),the tin number, and its mass in g.
 }
 \usage{
 tin_tares
