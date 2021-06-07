@@ -1,0 +1,2 @@
+hydrometer_ID,date_acquired,Hs_mm,Ht_mm,Hb_mm,HLb_mm,Hcb_mm,Hr1_mm,Hr2_mm,Vhb_mL,pure_water_offset
+1,2019-02-01,84,107.78,246,137,61,203,86,55,1.25

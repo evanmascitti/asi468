@@ -19,7 +19,7 @@ library(magrittr)
 # it but pretty annoying. In the future try to build things that will be joined only on
 # character vectors or factors and not on doubles.
 
-mini_sand_cone_vol <- readr::read_csv("inst/ext-data/mini-sand-cone-method/cone-volumes_2021-03-06.csv") %>%
+mini_sand_cone_vol <- readr::read_csv("./data-raw/mini-sand-cone-method/cone-volumes_2021-03-06.csv") %>%
   dplyr::filter(dplyr::across(dplyr::everything(), .fns = ~!is.na(.))) %>%
   dplyr::left_join(soiltestr::h2o_properties_w_temp_c, by = "water_temp_c") %>%
   dplyr::select(replication, mass, water_density_Mg_m3) %>%
