@@ -2,7 +2,7 @@
 library(magrittr)
 
 astm_152H_hydrometers <- readr::read_csv(file = './data-raw/hydrometers/asi468-ASTM-152H-hydrometers.csv',
-                col_types = 'iDddddddddd',
+                col_types = 'iDdddddddd',
                 skip_empty_rows = TRUE,
                 trim_ws = TRUE) %>%
   dplyr::mutate(
