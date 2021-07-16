@@ -5,7 +5,7 @@
 \alias{stainless_bowl_tares}
 \title{Stainless steel bowl masses for weighing moist soil}
 \format{
-A list of tibbles containing 3 columns: the date (as a character type),
+Data frame containing 3 columns: the date (as a character type),
 the number, and the mass to +/- 0.01 g.
 }
 \usage{
