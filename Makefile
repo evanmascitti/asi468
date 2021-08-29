@@ -1,4 +1,4 @@
-#DATA_OBJECTS = notdir($(wildcard ./data-raw/*.R))
+
 DATA_OBJECTS = $(notdir $(wildcard ./data-raw/*.R) )
 
 all: data
@@ -16,7 +16,8 @@ data: $(patsubst %.R,./data/%.rda,$(DATA_OBJECTS))
 
 
 data/%.rda: data-raw/%.R $(shell find ./data-raw -name "*.csv" -type f)
-	@echo -e Updated prerequisite files are $?
+	# @echo -e Updated prerequisite files are $?
+	@echo -e Updating data file: $@
 	Rscript $<
 
 #install: data
