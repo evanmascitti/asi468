@@ -7,7 +7,8 @@ library(dplyr)
 cyls_raw <- readr::read_csv(
   './data-raw/bouyoucos-cylinders/bouyoucos-cylinder-dimensions_2019-05-19.csv',
   col_types = 'iDddddd',
-  skip_empty_rows = TRUE
+  skip_empty_rows = TRUE,
+  lazy = FALSE
   )
 
 bouyoucos_cylinders <- cyls_raw %>%

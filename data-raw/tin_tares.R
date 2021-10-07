@@ -2,7 +2,7 @@
 library(magrittr)
 
 tin_tares <- list.files(path = "./data-raw/tin_tares/", pattern = '.csv', full.names = T) %>%
-  purrr::map(readr::read_csv, col_types = 'cid') %>%
+  purrr::map(readr::read_csv, col_types = 'cid', lazy = F) %>%
   dplyr::bind_rows()
 
 cat("First rows of `tin_tares` tibble:")
