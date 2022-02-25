@@ -13,5 +13,12 @@ tin_tares
 \description{
 Tared masses to nearest 0.001 g. Useful for Atterberg limits and
 other small-sample water content determinations.
+
+The sets are described/labeled as the following:
+\itemize{
+\item 2020-05-24 A set comprisiong 2" aluminum lightweight tins and also a set of sturdier 2" aluminum containers (both the lids and the containers themselves)
+\item 2021-03-04 A set of new lightweight aluminum weigh tins/boats with tabs,  purchased from Gilso Co. These are slightly smaller than the 2020-05-24 set.
+\item 2021-09-10 Larger steel tins used for Proctor testing. Some are original to ASI 468; the others were acquired from Jack Watson's lab when he retired in summer 2021.
+}
 }
 \keyword{datasets}

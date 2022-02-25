@@ -1,4 +1,4 @@
-bottle_set,bottle_number,replication,empty_bottle_mass,water_filled_mass,water_temp_c
+bottle_set,bottle_number,replication,bottle_empty_mass,water_filled_mass,water_temp_c
 2020-07-12,1,1,36.890,136.580,21.5
 2020-07-12,1,2,36.890,136.700,21.5
 2020-07-12,1,3,36.890,136.610,21.5
